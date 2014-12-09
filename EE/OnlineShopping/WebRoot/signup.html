@@ -1,0 +1,77 @@
+<!DOCTYPE>
+<html>
+<head>
+<title>会员注册--胖嘟嘟网上商城OnlineShopping</title>
+<link rel="stylesheet" type="text/css" href="css/signup.css" />
+<link rel="stylesheet" href="css/easyui.css">
+<link rel="stylesheet" href="css/icon.css">
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jquery.easyui.min.js"></script>
+</head>
+<body>
+	<div id="carbonForm">
+		<h2>会员注册</h2>
+		<form action="user/signup!signup.action" method="post" id="signupForm">
+			<div class="fieldContainer">
+				<div class="formRow">
+					<div class="label">
+						<label for="username">用户名:</label>
+					</div>
+					<div class="field">
+						<input type="text" name="udto.user.username" id="username"
+						maxlength="16"
+							autofocus required />
+					</div>
+				</div>
+
+				<div class="formRow">
+					<div class="label">
+						<label for="pass">密码:</label>
+					</div>
+					<div class="field">
+						<input type="password" name="udto.user.password" id="password"
+							required pattern="^[\@A-Za-z0-9\!\#\$\%\^\&\*\.\~]{6,16}$"
+							title="6 < > 16" maxLength="16" />
+					</div>
+				</div>
+
+				<div class="formRow">
+					<div class="label">
+						<label for="repassword">确认密码:</label>
+					</div>
+					<div class="field">
+						<input type="password" name="udto.repassword" id="repassword"
+							required pattern="^[\@A-Za-z0-9\!\#\$\%\^\&\*\.\~]{6,16}$"
+							title="6 < > 16" />
+					</div>
+				</div>
+
+				<div class="formRow">
+					<div class="label">
+						<label for="address">默认地址:</label>
+					</div>
+					<div class="field">
+						<input type="text" name="udto.user.address" id="address" required />
+					</div>
+				</div>
+
+				<div class="formRow">
+					<div class="label">
+						<label for="phone">电话号码:</label>
+					</div>
+					<div class="field">
+						<input type="text" name="udto.user.phone" id="phone" required
+							pattern="((\d{11})|^((\d{7,8})|(\d{4}|\d{3})-(\d{7,8})|(\d{4}|\d{3})-(\d{7,8})-(\d{4}|\d{3}|\d{2}|\d{1})|(\d{7,8})-(\d{4}|\d{3}|\d{2}|\d{1}))$)"
+							title="请输入正确的电话号码" />
+					</div>
+				</div>
+			</div>
+
+			<div class="signupButton">
+				<input type="submit" name="submit" id="submit" value="" />
+			</div>
+		</form>
+	</div>
+	<script type="text/javascript" src="js/signup.js"></script>
+</body>
+</html>

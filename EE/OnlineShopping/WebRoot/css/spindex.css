@@ -1,0 +1,1858 @@
+body {
+	background: url(about:blank) fixed;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: #f25000;
+}
+
+ul,dl,li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul li,dl dd {
+	margin: 0;
+	padding: 0;
+}
+
+.clearfix:after {
+	content: "\0020";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+.clearfix {
+	zoom: 1;
+}
+
+.cl {
+	clear: both;
+	height: 0;
+	line-height: 0;
+	font-size: 0;
+	overflow: hidden;
+}
+
+#head .tab a {
+	text-decoration: underline;
+}
+
+#maincontent {
+	padding: 0;
+	width: 960px;
+	float: left;
+	overflow: hidden;
+	*position: relative;
+}
+
+.has-comment,.no-comment,.price-item,.price-item i,.price-active i {
+	background: url(/static/zh/shangpin/bg.png) no-repeat;
+}
+
+#scroll-top,.list-more,.price-item span {
+	background: url("/static/zh/shangpin/shopping-sprites.png") no-repeat;
+}
+
+.price-up span,.price-down span {
+	background: url("/static/zh/shangpin/arr.gif") no-repeat;
+}
+
+#shop-cata {
+	padding-bottom: 10px;
+	font-size: 14px;
+}
+
+.xunzhi {
+	background: #f6f4e7;
+	height: 26px;
+	line-height: 26px;
+	border: 1px solid #e3e1d5;
+	color: #010004;
+	padding-left: 10px;
+	font-weight: 700;
+	margin-bottom: 17px;
+	font-size: 14px;
+}
+
+.xunzhi a {
+	margin-right: 9px;
+	font-weight: normal;
+	text-decoration: underline;
+}
+
+.xunzhi span {
+	color: #008000;
+	font-weight: normal;
+	font-size: 12px;
+}
+
+.shop-cata-nav {
+	width: 915px;
+	float: left;
+}
+
+.shop-cata-nav li {
+	float: left;
+	padding: 0;
+}
+
+.shop-cata-nav li span {
+	padding: 0 8px;
+	font-family: simsun;
+}
+
+#shop-type-list {
+	background: #fff;
+	border: 1px solid #d4d4d4;
+}
+
+#shop-type-list div {
+	float: left;
+	width: 951px;
+	padding: 8px 0 0 5px;
+	border: 1px solid #fff;
+	border-top: none;
+	border-bottom: 1px dotted #bfbfbf;
+	font-size: 13px;
+	position: relative;
+	background: #f5f6f0;
+}
+
+#shop-type-list div.is-cate {
+	background: #fff;
+	width: 951px;
+}
+
+#shop-type-list div span {
+	float: left;
+	padding-top: 2px;
+	*padding-top: 3px;
+	_padding-top: 2px;
+}
+
+#shop-type-list div.label-selected,#shop-type-list div.cate-label {
+	border: none;
+	border-bottom: 1px solid #d4d4d4;
+}
+
+#shop-type-list div.cate-last {
+	border-bottom: 1px solid #fff;
+}
+
+#shop-type-list div.label-first {
+	border-top: 1px solid #fff;
+}
+
+#shop-type-list div.label-selected {
+	background: #e9f0f8;
+	padding: 3px 0 2px 5px;
+	width: 953px;
+}
+
+#label-list li label {
+	float: left;
+	line-height: 16px;
+}
+
+#shop-type-list div.label-selected li {
+	margin: 0 17px 0 0;
+	padding-bottom: 2px;
+	padding-bottom: 1px\9;
+	border: 1px solid #d8d8d8;
+	white-space: normal;
+	background: #fff;
+	border-radius: 1px;
+}
+
+#shop-type-list div.label-selected li a {
+	color: #606060;
+	margin-right: 12px;
+	display: inline-block;
+}
+
+#shop-type-list div.label-selected li b {
+	height: 11px;
+	width: 11px;
+	margin-right: 1px;
+	vertical-align: middle;
+	margin-top: -3px;
+	margin-top: -2px\9;
+	_margin-top: 0;
+	cursor: pointer;
+	display: inline-block;
+}
+
+#shop-type-list p {
+	float: left;
+}
+
+#shop-type-list a {
+	font-size: 12px;
+	float: left;
+	line-height: 16px;
+}
+
+#shop-type-list .shop-title {
+	font-weight: bold;
+	padding: 4px 0 0 2px;
+}
+
+#shop-type-list .shop-type-all {
+	padding: 4px 15px 1px 4px;
+}
+
+#shop-type-list .shop-type-all a {
+	padding: 2px 5px;
+}
+
+#shop-type-list .all-active a {
+	color: #fff;
+	background: #80adb9;
+}
+
+#shop-type-list ul {
+	width: 870px;
+	overflow: hidden;
+	float: left;
+	margin-left: -5px;
+	*padding-bottom: 4px;
+}
+
+#shop-type-list #cate-list {
+	width: 925px;
+}
+
+#shop-type-list #cate2-list {
+	width: 925px;
+}
+
+#shop-type-list #cate-list li {
+	width: 165px;
+}
+
+#shop-type-list #cate2-list li {
+	width: 165px;
+}
+
+#shop-type-list .hide-ul {
+	max-height: 25px;
+	_height: 25px;
+}
+
+.shop-type-container.hide-cate .hide-cate {
+	display: none;
+}
+
+.shop-type-container.hide-cate {
+	display: block;
+}
+
+.shop-type-container .more {
+	display: none;
+	cursor: pointer;
+}
+
+.shop-type-container.show-more .more {
+	display: block;
+	background-color: #ededed;
+	background-image: url("/static/zh/shangpin/more.gif");
+	background-position: 0 -16px;
+	width: 83px;
+	height: 16px;
+	border-top: 1px solid #fff;
+	margin: 0 auto;
+	margin-top: -1px;
+}
+
+.shop-type-container.show-more .more.close {
+	background-position: 0 0;
+}
+
+.shop-type-container.hide-cate #shop-type-list div.limit-start {
+	border-bottom: 1px solid #fff;
+}
+
+#shop-type-list .two-row .hide-ul {
+	max-height: 50px;
+	_height: 50px;
+}
+
+#shop-type-list li {
+	float: left;
+	font-size: 12px;
+	vertical-align: top;
+	margin: 0 9px 9px 0;
+	white-space: nowrap;
+	color: #606060;
+	*height: 16px;
+	display: inline;
+	padding: 2px 5px 0 5px;
+}
+
+#shop-type-list li .res-num {
+	float: none;
+	padding: 0;
+	margin: 0;
+	_position: relative;
+	_top: -2px;
+	vertical-align: top;
+}
+
+#shop-type-list .cur-list {
+	background: #ecebe8;
+	color: #666;
+	padding-bottom: 2px;
+	margin-bottom: 7px;
+}
+
+#shop-type-list .cur-list a {
+	color: #666;
+}
+
+#shop-type-list .cur-list a:hover {
+	text-decoration: none;
+}
+
+#shop-type-list .cur-list b {
+	cursor: pointer;
+	padding: 1px 5px;
+	margin-left: 4px;
+	border-left: 1px solid #ddd;
+	font-size: 14px;
+	font-weight: normal;
+	font-family: consolas;
+}
+
+#shop-type-list .cur-list b:hover {
+	color: #2b2b2b;
+}
+
+.list-more {
+	position: absolute;
+	top: 42%;
+	outline: none;
+	zoom: 1;
+	font-size: 13px;
+	display: none;
+	width: 23px;
+	height: 9px;
+	right: 3px;
+	background: url("/static/zh/shangpin/pc_detail_s2.png") no-repeat;
+}
+
+.cate-line .list-more {
+	background-position: -27px -384px;
+}
+
+.cate-line .hide-list {
+	background-position: 0 -384px;
+}
+
+.is-cate .list-more {
+	background-position: -27px -373px;
+}
+
+.is-cate .hide-list {
+	background-position: 0 -373px;
+}
+
+#discount {
+	vertical-align: middle;
+	float: left\9;
+	display: inline\9;
+	margin-top: 0;
+	margin-top: 2px\9;
+}
+
+.sort-right label {
+	_vertical-align: bottom;
+}
+
+#normal-shopping-list table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+#normal-shopping-list td {
+	height: 180px;
+}
+
+.n-list-des {
+	width: 500px;
+}
+
+.item-title,.item-des,.s-list-des {
+	word-break: break-all;
+	word-wrap: break-word;
+}
+
+.item-title {
+	padding-bottom: 6px;
+}
+
+.item-img {
+	width: 110px;
+	text-align: center;
+}
+
+.item-img img {
+	border: 1px solid #ccc;
+}
+
+.item-title a {
+	font-size: 15px;
+	text-decoration: underline;
+	margin-right: 12px;
+}
+
+.item-title em {
+	font-style: normal;
+	color: #c00;
+	text-decoration: underline;
+}
+
+.item-title b {
+	color: #f25000;
+	font-weight: normal;
+}
+
+.item-quality {
+	font-size: 13px;
+	padding: 0 0 8px 0;
+	color: #666;
+}
+
+.item-des {
+	color: #666;
+	line-height: 160%;
+}
+
+.item-comment {
+	padding-top: 0;
+}
+
+.has-comment {
+	background-position: 0 -87px;
+	padding-left: 22px;
+}
+
+.has-comment a {
+	color: #666;
+	text-decoration: underline;
+}
+
+.has-comment a:hover {
+	color: #f25000;
+}
+
+.no-comment {
+	color: #aaa;
+	background-position: -103px -317px;
+	padding-left: 22px;
+}
+
+.item-price {
+	padding-right: 80px;
+	text-align: center;
+	color: #007f00;
+	font-size: 14px;
+}
+
+.item-price b {
+	display: block;
+	padding-bottom: 6px;
+	color: #F25000;
+	font: 23px Verdana Tahoma, arial;
+}
+
+#sort-bar {
+	clear: left;
+	background: #fff;
+	position: relative;
+	z-index: 100;
+}
+
+#sort-bar-list {
+	float: left;
+	width: 100%;
+}
+
+#sort-bar-list li {
+	float: left;
+	text-align: center;
+	padding: 0 8px;
+	border-right: 1px solid #ddd;
+	border-left: 1px solid #fff;
+	line-height: 26px;
+}
+
+#sort-bar-list li.sort-right {
+	float: right;
+	border: none;
+}
+
+#sort-bar-list a {
+	color: #000;
+}
+
+#sort-bar-list span {
+	font-weight: normal;
+}
+
+#sort-bar-list .select-item-active {
+	background: #fff;
+}
+
+#sort-bar-list #default-sort.select-item-active {
+	*border-left: none;
+}
+
+#sort-bar-list #default-sort {
+	border-left-color: transparent;
+	_border-left: none;
+}
+
+#sort-bar-list .select-item-active span {
+	font-weight: bold;
+}
+
+#sort-bar-list .sort-item span {
+	padding-right: 8px;
+	display: block;
+	font-size: 14px;
+}
+
+#sort-bar-list .price-up span {
+	background-position: right 0;
+}
+
+#sort-bar-list .price-down span {
+	background-position: right -23px;
+}
+
+#price-search-list {
+	position: relative;
+	width: 67px;
+}
+
+#price-list {
+	position: absolute;
+	left: 78px;
+	top: 1px;
+	width: 84px;
+	padding-top: 2px;
+}
+
+.price-list-out {
+	height: 20px;
+	overflow: hidden;
+}
+
+.price-list-hover {
+	border: 1px solid #DDD;
+	height: 50px;
+	background: #fff;
+}
+
+#price-list li {
+	float: none;
+	text-align: center;
+	padding: 0;
+	border: 0;
+}
+
+#price-list a {
+	color: #00f;
+}
+
+#price-search {
+	position: relative;
+	top: -3px;
+	top: -4px\9;
+	padding-bottom: 1px;
+	font-size: 12px;
+}
+
+#btn-ts {
+	width: 37px;
+	height: 22px;
+	font-size: 12px;
+	float: right;
+	margin-right: 6px;
+	text-align: center;
+}
+
+#price-from,#price-to {
+	width: 24px;
+	height: 12px;
+}
+
+.select-item-active #price-list {
+	background: #fff;
+	border: 1px solid #e6e6e6;
+	border-top: 0;
+	display: block;
+}
+
+#pager {
+	font-size: 15px;
+	z-index: 100;
+	margin-top: -1px;
+	padding-bottom: 30px;
+	border-top: 1px solid #ccc;
+	clear: both;
+	text-align: center;
+}
+
+#bg-wrap {
+	height: 4px;
+	font-size: 0;
+	margin-bottom: 30px;
+}
+
+#ft {
+	background: #E6E6E6;
+	clear: both;
+	line-height: 20px;
+	min-width: 950px;
+	text-align: center;
+	color: #77C;
+}
+
+#ft span {
+	color: #666;
+}
+
+#scroll-top {
+	width: 24px;
+	height: 63px;
+	background-position: right -42px;
+	position: fixed;
+	_position: absolute;
+	top: 390px;
+	left: 970px;
+	cursor: pointer;
+	display: none;
+	zoom: 1;
+}
+
+.sort-menu {
+	position: absolute;
+	font-size: 12px;
+	z-index: 100;
+	left: -1px;
+	top: 21px;
+	display: none;
+	width: 139px;
+}
+
+.sort-menu li {
+	border: 1px solid #d2d2d2;
+	border-top: 0;
+	margin: 0;
+	width: 139px;
+}
+
+.sort-menu a {
+	display: block;
+	padding: 2px 17px 2px 20px;
+	padding: 4px 17px 0 20px\9;
+	border: 1px solid #fff;
+	color: #404040;
+	background-color: #fff;
+}
+
+.sort-menu a:hover {
+	background-color: #eee;
+	text-decoration: none;
+	color: #000;
+}
+
+.menu-price-down {
+	background-position: 7px -394px;
+}
+
+.menu-price-up {
+	background-position: -105px -252px;
+}
+
+#special-shopping-list {
+	margin-top: 15px;
+	width: 980px;
+	float: left;
+	top: 1px;
+	position: relative;
+	z-index: 10;
+}
+
+#special-shopping-list h3 {
+	background: #d0e9f1;
+	margin: 0;
+	padding: 6px 14px;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+#special-shopping-list ul {
+	float: left;
+	background: #f9f9f9;
+	padding-left: 14px;
+	width: 1061px;
+}
+
+#special-shopping-list ul li {
+	float: left;
+	width: 300px;
+	padding: 15px 15px 15px 0;
+	border-bottom: 1px dotted #BFBFBF;
+}
+
+#special-shopping-list table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+#special-shopping-list td {
+	background: #fff;
+	padding: 16px;
+}
+
+.s-list-des {
+	width: 700px;
+}
+
+.s-list-title,.s-list-title a {
+	font-size: 15px;
+}
+
+.s-list-title span {
+	font-size: 15px;
+	color: #666;
+	white-space: nowrap;
+}
+
+#special-shopping-list.s-img {
+	background: url(../images/bg.png) no-repeat;
+}
+
+.s-quality {
+	padding: 0;
+	float: left;
+	font-size: 13px;
+	color: #666;
+	*width: 210px;
+}
+
+.hot-shopping,.sale-activity {
+	clear: left;
+	padding: 16px 0 0 30px;
+}
+
+.hot-shopping a {
+	text-decoration: underline;
+	margin-right: 21px;
+}
+
+.sale-activity a {
+	color: #7d7d7d;
+	margin-right: 15px;
+}
+
+.sale-activity a:hover {
+	text-decoration: underline;
+}
+
+.s-img img {
+	height: 80px;
+	width: 80px;
+	border: 1px solid #CCC;
+}
+
+.mis-media {
+	margin: 0;
+	padding: 0;
+	zoom: 1;
+}
+
+.mis-media:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+	overflow: hidden;
+	font-size: 0;
+}
+
+.mis-media .mis-media-img {
+	float: left;
+}
+
+.mis-media .mis-media-img img {
+	display: block;
+}
+
+.mis-media .mis-media-img-lhs {
+	float: left;
+}
+
+.mis-media .mis-media-img-rhs {
+	float: right;
+}
+
+.mis-media .imgExt {
+	float: right;
+}
+
+.mis-media .mis-media-bd {
+	display: table-cell;
+	zoom: 1;
+	padding-left: 10px;
+}
+
+.mis-media .mis-media-bd>:first-child {
+	margin-top: 0;
+}
+
+.mis-media .mis-media-bd>:last-child {
+	margin-bottom: 0;
+}
+
+.mis-media .shopper-box {
+	display: table;
+	height: 82px;
+	overflow: hidden;
+	*position: relative;
+}
+
+.mis-media .shopper-box .sub-wrap {
+	vertical-align: middle;
+	display: table-cell;
+	*position: absolute;
+	*top: 50%;
+}
+
+.mis-media .shopper-box .content {
+	*position: relative;
+	*top: -50%;
+	_zoom: 1;
+}
+
+.shopping-list li {
+	width: 220px;
+	margin-top: 20px;
+	display: inline;
+	padding: 0 10px 0 10px;
+	height: 313px;
+	float: left;
+}
+
+.item-detail {
+	float: left;
+	padding: 0 8px;
+	width: 206px;
+}
+
+.shopping-list li.div-line {
+	margin: 0;
+	font-size: 0;
+	padding: 0;
+	height: 1px;
+	background: #e6e6e6;
+	width: 100%;
+	margin-bottom: 30px
+}
+
+.shopping-list .pro-pic-container {
+	width: 220px;
+	height: 220px;
+	position: relative;
+}
+
+.shopping-list a.pro-pic {
+	border: 1px solid #EAEAEA;
+	width: 220px;
+	float: left;
+	height: 220px;
+	text-align: center;
+	display: table-cell;
+	outline: medium none;
+	vertical-align: middle;
+	*display: inline-block;
+	*font-family: Arial;
+	*font-size: 163px;
+	*line-height: 0;
+}
+
+.shopping-list a.pro-pic:hover {
+	border: 1px solid #69a3b6;
+}
+
+.shopping-list div.pro-pic-container ul.shade {
+	background: #000;
+	opacity: .5;
+	filter: alpha(opacity = 50);
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 220px;
+	z-index: 10;
+	padding: 5px 0 7px 0;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.shopping-list div.pro-pic-container ul.shade li {
+	height: 24px;
+	line-height: 24px;
+	color: #fff;
+	font-size: 12px;
+	padding: 0;
+	margin-top: 0;
+}
+
+.shopping-list div.pro-pic-container ul.shade li .shade-left {
+	float: left;
+	margin-left: 5px;
+}
+
+.shopping-list div.pro-pic-container ul.shade li .shade-right {
+	float: right;
+	margin-right: 5px;
+}
+
+.shopping-list a img {
+	vertical-align: middle;
+}
+
+.shopping-list li.four {
+	margin-right: 0;
+}
+
+.shopping-list li .pro-title {
+	height: 34px;
+	word-break: break-all;
+	word-wrap: break-word;
+	overflow: hidden;
+	margin-top: 6px;
+	margin-bottom: 6px;
+	line-height: 17px;
+}
+
+.shopping-list li .pro-price {
+	margin-bottom: 3px;
+}
+
+.shopping-list li .pro-title a {
+	word-break: break-all;
+	word-wrap: break-word;
+	font-size: 12px;
+}
+
+.shopping-list li .pro-title a em {
+	text-decoration: none;
+}
+
+.shopping-list li .pro-title a:hover em {
+	text-decoration: underline;
+}
+
+.shopping-list li .pro-title span {
+	color: #722f03;
+}
+
+.shopping-list li p {
+	text-align: center;
+}
+
+.shopping-list li p.pro-price,.shopping-list li .pro-comments {
+	height: 26px;
+	text-align: left;
+	line-height: 26px;
+}
+
+.pro-price span {
+	float: right;
+	width: 17px;
+	display: inline;
+	margin-left: 2px;
+	height: 17px;
+	margin-top: 4px;
+	background: url("/static/zh/shangpin/shopping_n_spr.gif");
+}
+
+.pro-comments span {
+	color: #666;
+	float: right;
+}
+
+.pro-price span.discount {
+	background-position: -12px 0;
+}
+
+.pro-price span.mail {
+	background-position: -29px 0;
+}
+
+.pro-price span.receive {
+	background-position: -12px -17px;
+}
+
+.pro-price span.return {
+	background-position: -29px -17px;
+}
+
+.shopping-list li .pro-comments {
+	height: 20px;
+	font-size: 12px;
+	line-height: 20px;
+}
+
+.shopping-list li .pro-comments a {
+	color: #666;
+}
+
+.shopping-list li p strong {
+	color: #c00;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.shopping-list li p em {
+	font-size: 14px;
+	margin-right: 4px;
+	font-style: noraml;
+	color: #333;
+}
+
+.shopping-list li p a {
+	color: #000;
+}
+
+.shopping-list li p img {
+	border: none;
+	vertical-align: -4px;
+}
+
+.shopping-list li p del {
+	color: #666;
+}
+
+.adv {
+	width: 960px;
+	margin-left: 20px;
+}
+
+.adv_bt {
+	clear: both;
+}
+
+.adv_tl {
+	background: #F7F7F7;
+	height: 28px;
+	padding-left: 14px;
+	width: 931px;
+	line-height: 28px;
+	font-weight: 700;
+	color: #333;
+	font-size: 14px;
+	margin-bottom: 7px;
+}
+
+.adv_bt a {
+	display: inline-block;
+	float: left;
+	margin-right: 21px;
+}
+
+.adv_bt a.nomr {
+	margin-right: 0;
+}
+
+.bar-tail {
+	width: 4px;
+	height: 28px;
+}
+
+.bar-right {
+	float: right;
+	background: url("/static/zh/shangpin/shopping_n_spr.gif") -8px 0
+		no-repeat;
+}
+
+.bar-left {
+	float: left;
+	background: url("/static/zh/shangpin/shopping_n_spr.gif") -4px 0
+		no-repeat;
+}
+
+.bar-left.first-round {
+	background: url("/static/zh/shangpin/shopping_n_spr.gif") no-repeat;
+}
+
+.bar-mid {
+	height: 26px;
+	width: 952px;
+	float: left;
+	background-color: #ededed;
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #dcdcdc;
+	background-image: url("/static/zh/shangpin/bar_rp.png");
+	background-repeat: repeat-x;
+}
+
+#se-info strong {
+	font-weight: normal;
+}
+
+#se-info a {
+	color: #00f;
+}
+
+.bread-spacer {
+	background: url("/static/zh/shangpin/bread-spacer.png") no-repeat;
+	width: 13px;
+	height: 26px;
+	padding: 0;
+}
+
+.bread-item {
+	padding: 0 2px 0 6px;
+}
+
+#shop-nav li {
+	float: left;
+	line-height: 26px;
+}
+
+#se-info strong {
+	font-weight: normal;
+}
+
+#se-info a {
+	color: #00c;
+}
+
+.mis-body-s2 {
+	width: 960px;
+	margin: 17px auto 0 auto;
+	padding-left: 0;
+}
+
+.mis-body-s2 #shop-nav a {
+	font-size: 12px;
+	color: #000;
+}
+
+.detail-top {
+	height: 262px;
+	padding: 8px 0 20px;
+}
+
+.detail-top-left {
+	float: left;
+	border: 1px solid #C9CACA;
+	height: 260px;
+	width: 260px;
+}
+
+.detail-top-right {
+	float: right;
+	width: 684px;
+}
+
+.detail-top-name {
+	font-size: 24px;
+	color: #000;
+	font-family: ºÚÌå;
+	height: 34px;
+	line-height: 34px;
+}
+
+.detail-top-price {
+	color: #666;
+	font-size: 14px;
+	padding-bottom: 5px;
+}
+
+.detail-top-price-red {
+	color: #C00;
+	font-size: 24px;
+}
+
+.detail-top-store {
+	font-size: 12px;
+}
+
+.detail-top-des {
+	background: #F4F4F4;
+	padding: 0 9px;
+}
+
+.detail-top-des .des-item1 {
+	height: 76px;
+	border-bottom: 1px dashed #D0D0D0;
+	position: relative;
+}
+
+.detail-top-des .des-item1 .des-score {
+	position: absolute;
+	left: 8px;
+	top: -1px;
+	background: url("/static/zh/shangpin/pc_detail_s2.png") 0 0;
+	width: 83px;
+	height: 65px;
+	font-size: 36px;
+	text-align: center;
+	padding-top: 7px;
+}
+
+.detail-top-des .des-item1 .des-score .star {
+	width: 13px;
+	height: 13px;
+	line-height: 13px;
+	background: url("/static/zh/shangpin/pc_detail_s2.png") 0 -230px
+		no-repeat;
+	float: left;
+}
+
+.detail-top-des .des-item1 .des-score .star-con {
+	width: 65px;
+	height: 13px;
+	position: absolute;
+	top: 52px;
+	left: 10px;
+}
+
+.detail-top-des .des-item1 .des-score .full-star {
+	background-position: 0 -197px;
+}
+
+.detail-top-des .des-item1 .des-score .half-star {
+	background-position: 0 -213px;
+}
+
+.detail-top-des .des-item1 .des-comment-icon {
+	position: absolute;
+	left: 103px;
+	top: 33px;
+	background: url("/static/zh/shangpin/pc_detail_s2.png") 0 -76px;
+	width: 17px;
+	height: 17px;
+}
+
+.detail-top-des .des-item1 .des-comment {
+	position: absolute;
+	left: 124px;
+	top: 33px;
+	color: #158EF5;
+	font-size: 14px;
+}
+
+.detail-top-des .des-item1 .des-comment a {
+	color: #158EF5;
+}
+
+.detail-top-des .des-item1 .des-rate {
+	position: absolute;
+	left: 261px;
+	top: 34px;
+	width: 345px;
+	height: 10px;
+	z-index: 2;
+}
+
+.detail-top-des .des-item1 .des-rate-sub {
+	width: 100%;
+	height: 10px;
+}
+
+.detail-top-des .des-item1 .des-rate-shade {
+	position: absolute;
+	width: 360px;
+	height: 13px;
+	line-height: 13px;
+	background: url("/static/zh/shangpin/comment_rate.png") 0 0 no-repeat;
+	top: -2px;
+	left: -5px;
+	z-index: 5;
+}
+
+.detail-top-des .des-item1 .des-rate-sub-con {
+	height: 10px;
+	line-height: 10px;
+	float: left;
+	text-align: center;
+}
+
+.detail-top-des .des-item1 .des-rate-text {
+	position: relative;
+	top: 6px;
+	font-size: 12px;
+	color: #666;
+}
+
+.detail-top-des .des-item1 .des-good-rate {
+	background: #FFCBCA;
+	width: 100%;
+	height: 10px;
+	line-height: 10px;
+	float: left;
+	text-align: center;
+}
+
+.detail-top-des .des-item1 .des-common-rate {
+	background: #FDE2AE;
+	width: 100%;
+	height: 10px;
+	line-height: 10px;
+	float: left;
+	text-align: center;
+}
+
+.detail-top-des .des-item1 .des-bad-rate {
+	background: #DCDCDC;
+	width: 100%;
+	height: 10px;
+	line-height: 10px;
+	float: left;
+	text-align: center;
+}
+
+.detail-top-des .des-item2 {
+	height: 60px;
+	border-bottom: 1px dashed #D0D0D0;
+	padding: 10px 0 0 12px;
+}
+
+.detail-top-des p {
+	height: 28px;
+	font-size: 12px;
+}
+
+.detail-top-des span {
+	display: inline-block;
+	height: 18px;
+	line-height: 18px;
+	margin-right: 10px;
+	padding: 2px 5px;
+}
+
+.detail-top-des .des-good-tag span {
+	background: #CBE3FF;
+	cursor: pointer;
+	color: #333;
+}
+
+.detail-top-des .des-bad-tag span {
+	background: #E5E5E5;
+	cursor: pointer;
+	color: #333;
+}
+
+.detail-top-des .des-item3 {
+	height: 47px;
+}
+
+.detail-top-des .des-item3 ul {
+	float: left;
+	width: 618px;
+	padding: 6px 0 0 10px;
+}
+
+.detail-top-des .des-item3 li {
+	float: left;
+	width: 308px;
+	font-size: 12px;
+	line-height: 18px;
+}
+
+.detail-top-des .des-item3 .sep {
+	width: 4px;
+	height: 46px;
+	background: url("/static/zh/shangpin/pc_detail_s2.png") 0 -96px;
+	float: left;
+	position: relative;
+	top: -2px;
+	left: -10px;
+}
+
+#more-parameter {
+	display: block;
+	float: right;
+	width: 32px;
+	height: 36px;
+	color: #158EF5;
+	padding: 5px 0 0 0;
+}
+
+.mis-body-s2 .mall {
+	border-bottom: 2px solid #47AAFE;
+	height: 100%;
+	overflow: hidden;
+	margin: 0 0 16px;
+}
+
+.mis-body-s2 .mall li {
+	width: 128px;
+	font-size: 14px;
+	text-align: center;
+	color: #000;
+	height: 33px;
+	line-height: 33px;
+	border-top: 1px solid #47AAFE;
+	border-right: 1px solid #47AAFE;
+	float: left;
+	cursor: pointer;
+}
+
+.mis-body-s2 .mall li a {
+	color: #000;
+	font-size: 14px;
+	display: block;
+}
+
+.mis-body-s2 .mall-border {
+	border-left: 1px solid #47AAFE;
+}
+
+.mis-body-s2 li.hover-bg {
+	background: url(/static/zh/shangpin/mix-button.jpg) no-repeat left
+		-108px;
+	background: #47AAFE;
+	height: 33px;
+	border-left: none;
+	font-weight: bold;
+	color: #fbfafa;
+}
+
+.mis-body-s2 li.hover-bg a:hover {
+	font-weight: bold;
+	color: #fbfafa;
+}
+
+.mis-body-s2 .parameter {
+	margin-bottom: 15px;
+}
+
+.mis-body-s2 .parameter table {
+	border-top: 1px solid #EEE;
+	border-left: 1px solid #EEE;
+}
+
+.mis-body-s2 .parameter td {
+	padding-top: 7px;
+	padding-bottom: 9px;
+	border-bottom: 1px solid #EEE;
+	border-right: 1px solid #EEE;
+	color: #666;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.mis-body-s2 td.parameter-bg {
+	background-color: #EDF4FA;
+	padding-top: 12px;
+}
+
+.mis-body-s2 .parameter-ul li {
+	font-size: 13px;
+	color: #666;
+	font-weight: normal;
+	line-height: 25px;
+	background: url(/static/zh/shangpin/litag.gif) no-repeat 5px 5px;
+	padding-left: 20px;
+	word-break: break-all;
+	word-wrap: break-word;
+	height: auto;
+}
+
+.mis-body-s2 .parameter-ul li span {
+	line-height: 25px;
+	display: inline-block;
+}
+
+.mis-body-s2 .parameter-ul li span.right {
+	width: 700px;
+}
+
+.store-little {
+	border: 1px solid #7DC3FF;
+	width: 258px;
+	float: right;
+}
+
+.store-little-title {
+	height: 28px;
+	padding: 20px 0 0 10px;
+	border-bottom: 2px solid #D7EFFF;
+	color: #8CBCE5;
+	font-size: 16px;
+	font-weight: bold;
+	background: url("/static/zh/shangpin/pc_detail_s2.png") 0 -146px
+		no-repeat;
+}
+
+.store-little-each {
+	border-bottom: 1px dashed #CCC;
+	padding: 14px 20px 19px 15px;
+	font-size: 12px;
+}
+
+.store-little-name {
+	line-height: 24px;
+	height: 48px;
+	overflow: hidden;
+}
+
+.store-little-name a {
+	color: #000;
+}
+
+.store-little-price {
+	color: #CCC;
+	height: 35px;
+	line-height: 35px;
+}
+
+.store-little-service {
+	color: #ACACAC;
+}
+
+.user-comment-list-con {
+	float: left;
+	width: 670px;
+	margin: 0 0 0 10px;
+	_margin-left: 5px;
+}
+
+.user-comment-list {
+	border-top: 1px solid #e6e6e6;
+	padding: 20px 3px 0 5px;
+	margin-top: 14px;
+}
+
+.user-comment-list-left {
+	float: left;
+	width: 56px;
+	height: 100px;
+	line-height: 100px;
+	font-size: 14px;
+	color: #666;
+}
+
+.user-comment-list-right {
+	float: left;
+	width: 605px;
+	font-size: 12px;
+}
+
+.user-comment-list-title {
+	height: 20px;
+}
+
+.user-comment-list-title .title-left {
+	float: left;
+}
+
+.user-comment-list-title .title-right {
+	float: right;
+	text-align: right;
+	color: #959494;
+}
+
+.user-comment-list-title a {
+	color: #158EF5;
+}
+
+.user-comment-list-right .gray {
+	color: #959494;
+}
+
+.user-comment-text-l {
+	width: 36px;
+	height: 18px;
+	line-height: 18px;
+	float: left;
+}
+
+.user-comment-text {
+	width: 505px;
+	float: left;
+	color: #666;
+	line-height: 18px;
+}
+
+.user-comment-list-left .em-score {
+	font-size: 36px;
+}
+
+.user-comment-list-left .em-score-red {
+	color: #E20801;
+}
+
+.user-comment-list-left .em-score-orange {
+	color: #F39800;
+}
+
+.user-comment-list-left .em-score-gray {
+	color: #959595;
+}
+
+.user-comment-good,.user-comment-bad,.user-comment-other {
+	padding: 5px 0;
+}
+
+.user-comment-filter .item1-left {
+	text-align: right;
+	float: left;
+	font-size: 12px;
+	width: 67px;
+}
+
+.user-comment-filter .item1-center,.user-comment-filter .item2-center {
+	width: 450px;
+	float: left;
+}
+
+.user-comment-filter .item1-center span.round-out {
+	display: inline-block;
+	background: url("/static/zh/shangpin/pc_detail_s2.png") 0 -257px
+		no-repeat;
+	margin-right: 10px;
+	cursor: pointer;
+	height: 25px;
+}
+
+.user-comment-filter .item1-center span.round-in {
+	display: inline-block;
+	padding: 0 16px;
+	background: url("/static/zh/shangpin/pc_detail_s2.png") right -286px
+		no-repeat;
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+	cursor: pointer;
+	height: 25px;
+	line-height: 25px;
+}
+
+.user-comment-filter .item2-center span {
+	display: inline-block;
+	padding: 0 20px 0 4px;
+	border: 1px solid #B5D7FF;
+	color: #000;
+	font-size: 12px;
+	margin-right: 10px;
+	background: url("/static/zh/shangpin/pc_detail_s2.png") right -24px
+		no-repeat;
+	cursor: pointer;
+	height: 16px;
+	line-height: 16px;
+}
+
+.user-comment-filter-item1 .item1-right {
+	float: right;
+	text-align: right;
+	width: 152px;
+}
+
+.user-comment-filter-item1 .comment-radio-con {
+	float: right;
+	width: 80px;
+	height: 23px;
+	border: 1px solid #CCC;
+	position: relative;
+}
+
+.user-comment-filter-item1 .comment-radio1 {
+	height: 23px;
+	line-height: 23px;
+	text-align: center;
+	font-size: 12px;
+	background: url("/static/zh/shangpin/pc_detail_s2.png") right 0
+		no-repeat;
+	padding-left: 5px;
+	padding-right: 25px;
+	cursor: pointer;
+}
+
+.user-comment-filter-item1 .comment-radio2 {
+	position: absolute;
+	width: 80px;
+	height: 92px;
+	border: 1px solid #CCC;
+	border-top: none;
+	top: 24px;
+	left: -1px;
+	z-index: 3;
+	cursor: pointer;
+	background: #fff;
+}
+
+.user-comment-filter-item1 .comment-radio2-i {
+	height: 23px;
+	line-height: 23px;
+	text-align: center;
+}
+
+.user-comment-filter-item1 .comment-radio-t {
+	font-size: 12px;
+	float: right;
+	height: 23px;
+	line-height: 23px;
+	width: 70px;
+}
+
+.mis-body-s2 .switch td {
+	padding-top: 18px;
+	padding-bottom: 18px;
+	border-bottom: 1px solid #EEE;
+}
+
+.mis-body-s2 td.switch-title {
+	background: #F4F4F4;
+	padding-bottom: 5px;
+	font-size: 13px;
+	color: #666;
+	padding-top: 7px;
+}
+
+.mis-body-s2 .recommend {
+	background: url(/static/zh/shangpin/mix-button.jpg) no-repeat -145px
+		-149px;
+	display: block;
+	width: 17px;
+	height: 13px;
+	background-color: #F00;
+	position: absolute;
+	top: 7px;
+	left: 92px;
+}
+
+.mis-body-s2 .switch-position {
+	position: relative;
+	text-align: center;
+}
+
+.mis-body-s2 .switch a.store-url {
+	line-height: 20px;
+	height: 40px;
+	overflow: hidden;
+	display: inline-block;
+	font-size: 13px;
+	color: #0194d7;
+}
+
+.mis-body-s2 span.switch-red {
+	color: #e10602;
+	font-size: 13px;
+}
+
+.mis-body-s2 span.switch-default {
+	color: #999;
+	font-size: 12px;
+}
+
+.mis-body-s2 .switch-default strong {
+	font-size: 14px;
+	color: #e10602;
+	font-weight: bold;
+}
+
+.mis-body-s2 span.switch-size {
+	font-size: 13px;
+	color: #999;
+}
+
+.mis-body-s2 a.switch-buy {
+	display: block;
+	background: url(/static/zh/shangpin/mix-button.jpg) no-repeat left
+		-170px;
+	width: 81px;
+	height: 32px;
+	text-align: center;
+	font-family: "Î¢ÈíÑÅºÚ";
+	font-size: 14px;
+	color: #333;
+	line-height: 32px;
+}
+
+.mis-body-s2 a.switch-buy:hover {
+	background: url(/static/zh/shangpin/mix-button.jpg) no-repeat -81px
+		-170px;
+	text-decoration: none;
+}
+
+.mis-body-s2 #pager {
+	margin-top: 60px;
+	border: none;
+}
+
+.mis-body-s2 .mis-pager a {
+	background: #fff;
+	color: #59B3FE;
+}
+
+.mis-body-s2 .mis-pager a:hover {
+	background: #59B3FE;
+	color: #fff;
+}
+
+.mis-body-s2 .mis-pager .sp2 {
+	color: #4A5864;
+}
+
+.shopping-list li p.s_para {
+	font-size: 12px;
+	color: #959494;
+	text-align: left;
+	height: 12px;
+	line-height: 12px;
+	width: 100%;
+	overflow: hidden;
+}
+
+.shopping-list li p.pro-price {
+	height: 18px;
+	line-height: 26px;
+}
+
+.shopping-list li .pro-comments {
+	padding-top: 3px;
+}
+
+.shopping-list li .pro-title a {
+	color: #000;
+}
+
+.shopping-list li .pro-title {
+	margin-bottom: 2px;
+}
+
+.shopping-list li .star {
+	width: 13px;
+	height: 13px;
+	line-height: 13px;
+	background: url("/static/zh/shangpin/pc_detail_s2.png") 0 -357px
+		no-repeat;
+	float: left;
+}
+
+.shopping-list li .full-star {
+	background-position: 0 -325px;
+}
+
+.shopping-list li .half-star {
+	background-position: 0 -341px;
+}

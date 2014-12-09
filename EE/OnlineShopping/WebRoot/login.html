@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>会员登录--胖嘟嘟网上商城OnlineShopping</title>
+<link rel="stylesheet" type="text/css" href="css/login.css" />
+<link rel="stylesheet" href="css/easyui.css">
+<link rel="stylesheet" href="css/icon.css">
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jquery.easyui.min.js"></script>
+</head>
+<body>
+	<form id="login" action="user/login!login">
+		<h1>胖嘟嘟商城会员登录</h1>
+		<fieldset id="inputs">
+			<input id="username" type="text" placeholder="用户名" name="username" autofocus required maxlength="16"/>
+			
+			<input id="password" type="password" placeholder="密码" required name="password" 
+				pattern="^[\@A-Za-z0-9\!\#\$\%\^\&\*\.\~]{6,16}$" title="6 < > 16"
+				maxLength="16" />
+		</fieldset>
+		
+		<fieldset id="actions">
+			<input type="submit" id="submit" value="登录"> <a href="product/findNewers">新品首示</a><a
+				href="signup.html">注册</a>
+		</fieldset>
+		<a href="index.jsp" id="back">返回主页</a>
+	</form>
+	<script type="text/javascript" src="js/login.js"></script>
+</body>
+</html>

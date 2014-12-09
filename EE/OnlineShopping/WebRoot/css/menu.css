@@ -1,0 +1,95 @@
+#menu {
+	float: left;
+	position: absolute;
+	width: 950px;
+	top: 80px;
+	margin-left: 176px;
+	z-index: 1001;
+	background-image:url("../images/bg.jpg");
+	height:100px;
+	left: 20px;
+}
+
+#navigation {
+	margin: 0px;
+	border: 0px;
+}
+
+#navigation li {
+	float: left;
+	text-align: center;
+	position: relative;
+}
+
+#navigation,#navigation li ul {
+	list-style-type: none;
+}
+
+#navigation li a:link,#navigation li a:visited {
+	display: block;
+	text-decoration: none;
+	color: black;
+	width: 77px;
+	height: 28px;
+	line-height: 30px;
+	border: 0px;
+	font-size: 14px;
+	font-family: "宋体";
+	border-width: 0px 0px 0 0;
+}
+
+#navigation li a:hover {
+	color:maroon;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+#navigation li ul li a:hover {
+	color: olive;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+#navigation li ul {
+	display: none;
+	position: absolute;
+	top: 28px;
+	left: 0px;
+	margin-top: 0px;
+	width: 77px;
+}
+
+#navigation li ul li:hover {
+	border-top: 1px white solid;
+	border-bottom: 1px white solid;
+}
+
+#navigation li ul li ul {
+	display: none;
+	position: absolute;
+	top: 0px;
+	left: 130px;
+	margin-top: 0;
+	margin-left: 0px;
+	width: 77px;
+}
+
+ul {
+	PADDING-BOTTOM: 0px;
+	MARGIN: 0px;
+	PADDING-LEFT: 0px;
+	PADDING-RIGHT: 0px;
+	PADDING-TOP: 0px
+}
+
+#navigation li ul li a:link,#navigation li ul li a:visited {
+	display: block;
+	text-decoration: none;
+	color: purple;
+	width: 77px;
+	height: 24px;
+	line-height: 24px;
+	border: 0px;
+	border-width: 0px 0px 0 0;
+	background-image:url("../images/box_bg.png");
+}

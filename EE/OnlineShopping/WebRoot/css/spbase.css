@@ -1,0 +1,287 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video
+	{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+}
+
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section
+	{
+	display: block;
+}
+
+ol,ul,menu {
+	list-style: none;
+}
+
+blockquote,q {
+	quotes: none;
+}
+
+blockquote:before,blockquote:after,q:before,q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+i,em {
+	font-style: normal;
+}
+
+b,strong {
+	font-weight: normal;
+}
+
+body {
+	font: 13px arial, ËÎÌå;
+	color: #000;
+	background: #fff;
+	padding: 6px 0 0;
+}
+
+a {
+	color: #00c;
+}
+
+em {
+	font-style: normal;
+	color: #c00;
+}
+
+a,a em {
+	text-decoration: underline;
+}
+
+.mis-head,.mis-body {
+	padding-left: 20px;
+}
+
+.mis-head {
+	margin-bottom: 10px;
+}
+
+#head {
+	width: 880px;
+}
+
+#head input {
+	padding-top: 0;
+	padding-bottom: 0;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+#head .fm {
+	float: left;
+	z-index: 9;
+}
+
+#head .nv {
+	height: 45px;
+	z-index: 200;
+	font-family: arial;
+}
+
+#head .nv .logo {
+	margin-right: 20px;
+}
+
+#head .nv .tab {
+	padding: 20px 0 0;
+	line-height: 18px;
+	position: relative;
+	top: -4px;
+}
+
+#head .nv a,#head .nv b,#head .btn {
+	font-size: 14px;
+}
+
+#head .nv a {
+	color: #00c;
+}
+
+#head .tab a {
+	margin-right: 12px;
+}
+
+#head .tab b {
+	font-weight: bold;
+}
+
+#head .i {
+	width: 535px;
+	height: 32px;
+	*height: 24px;
+	padding: 5px 0 0 7px;
+	font: 16px arial;
+	background: url(http://www.baidu.com/img/i2.png) no-repeat;
+	border: 1px solid #b6b6b6;
+	border-color: #7b7b7b #b6b6b6 #b6b6b6 #7b7b7b;
+	vertical-align: top;
+	margin-right: 5px;
+	-webkit-appearance: none;
+}
+
+#head .btn {
+	width: 95px;
+	height: 32px;
+	padding: 0;
+	padding-top: 2px\9;
+	border: 0;
+	background: #ddd url(http://www.baidu.com/img/i2.png) 0 -35px;
+	cursor: pointer;
+}
+
+#head .btn_h {
+	background-position: -100px -35px;
+}
+
+#head .btn_wr {
+	width: 97px;
+	height: 34px;
+	display: inline-block;
+	background: url(http://www.baidu.com/img/i2.png) no-repeat -202px bottom;
+	_padding-top: 1px;
+	*position: relative;
+}
+
+.mis-foot div {
+	background: #E6E6E6;
+	clear: both;
+	line-height: 20px;
+	text-align: center;
+	color: #77C;
+	margin-top: 25px;
+}
+
+.mis-foot span {
+	color: #666;
+}
+
+.mis-pager div {
+	font-size: 14px;
+}
+
+.mis-pager .disp-nums {
+	color: #999;
+	font-size: 12px;
+}
+
+.mis-pager a:hover {
+	background: #ebebeb;
+}
+
+.mis-pager a,.mis-pager strong {
+	width: 23px;
+	height: 22px;
+	line-height: 22px;
+	font-size: 14px;
+	text-align: center;
+	line-height: 22px;
+	display: inline-block;
+	border: 1px solid #e7ecf0;
+	background: #fff;
+	margin-right: 5px;
+	text-decoration: none;
+	vertical-align: middle;
+}
+
+.mis-pager strong {
+	border: 0;
+}
+
+.mis-pager .n {
+	width: 60px;
+	font-family: "ËÎÌå";
+	line-height: 24px;
+	overflow: hidden;
+	font-size: 16px;
+}
+
+#se-info {
+	clear: left;
+	padding: 0;
+	font-size: 14px;
+	margin-bottom: 10px;
+}
+
+#se-info strong {
+	font-weight: bold;
+}
+
+#se-info a {
+	color: #c00;
+	text-decoration: underline;
+}
+
+.mis-clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+	overflow: hidden;
+	font-size: 0;
+}
+
+.mis-clearfix {
+	zoom: 1;
+}
+
+.mis-media {
+	margin: 0;
+	padding: 0;
+	zoom: 1;
+}
+
+.mis-media:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+	overflow: hidden;
+	font-size: 0;
+}
+
+.mis-media .mis-media-img {
+	float: left;
+}
+
+.mis-media .mis-media-img img {
+	display: block;
+}
+
+.mis-media .mis-media-img-lhs {
+	float: left;
+}
+
+.mis-media .mis-media-img-rhs {
+	float: right;
+}
+
+.mis-media .imgExt {
+	float: right;
+}
+
+.mis-media .mis-media-bd {
+	display: table-cell;
+	zoom: 1;
+	padding-left: 10px;
+}
+
+.mis-media .mis-media-bd>:first-child {
+	margin-top: 0;
+}
+
+.mis-media .mis-media-bd>:last-child {
+	margin-bottom: 0;
+}

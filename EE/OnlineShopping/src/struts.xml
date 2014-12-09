@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.1//EN"
+	"http://struts.apache.org/dtds/struts-2.1.dtd">
+
+<struts>
+	<constant name="struts.devMode" value="true" />
+	<constant name="struts.i18n.encoding" value="UTF-8"></constant>
+
+	<!--基本配置 -->
+	<package name="base" namespace="/" extends="struts-default">
+		<interceptors>
+			<interceptor name="loginCheck"
+				class="com.us.os.qd.interceptors.LoginInterceptor"></interceptor>
+			<interceptor-stack name="mydefault">
+				<interceptor-ref name="defaultStack"></interceptor-ref>
+ 				<interceptor-ref name="loginCheck"></interceptor-ref> 
+			</interceptor-stack>
+		</interceptors>
+		<default-interceptor-ref name="mydefault"></default-interceptor-ref> 
+
+		<global-results>
+			<result name="login" type="redirect">/login.html</result>
+ 			<result name="error">/error.jsp</result> 
+		</global-results>
+
+		<global-exception-mappings>
+			<exception-mapping result="error" exception="java.lang.Exception"></exception-mapping>
+		</global-exception-mappings>
+	</package>
+
+	<package name="product" extends="base" namespace="/product">
+	<default-interceptor-ref name="defaultStack"></default-interceptor-ref>
+		<action name="findNewers" class="productAction" method="findNewers"> 
+			<result name="success">/showproducts.jsp</result>
+		</action>
+		<action name="findProductsByCategiryId" class="productAction" method="findProductsByCategiryId">
+			<result name="success">/showproducts.jsp</result>
+		</action>
+		<action name="searchProduct" class="productAction" method="searchProductByName">
+			<result name="success">/showproducts.jsp</result>
+		</action>
+	</package>
+
+	<package name="salesorder" extends="base" namespace="/salesorder">
+		<action name="salesorder" class="salesOrderAction">
+			<result>/order.jsp</result>
+		</action>
+		<action name="submitOrder" class="salesOrderAction" method="submitOrder">
+		</action>
+
+		<action name="addItemToOrder" class="salesOrderAction" method="addItemToOrder">
+			<result>/order.jsp</result>
+		</action>
+		
+		<action name="findFinishOrder" class="salesOrderAction" method="findFinishOrder">
+			<result>/myorders.jsp</result>
+		</action>
+
+	</package>
+
+	<package name="salesitem" extends="base" namespace="/salesitem">
+		<action name="salesitem" class="salesItemAction">
+		</action>
+	</package>
+
+	<package name="category" extends="base" namespace="/category">
+	<default-interceptor-ref name="defaultStack"></default-interceptor-ref>
+		<action name="category" class="categoryAction">
+			<result name="success">/categories.jsp</result>
+		</action>
+	</package>
+
+	<package name="user" extends="base" namespace="/user">
+		<default-interceptor-ref name="defaultStack"></default-interceptor-ref> 
+		<action name="signup" class="userAction">
+		</action>
+		<action name="login" class="userAction">
+		</action>
+		<action name="loginOut" class="userAction">
+		</action>
+		<action name="realLoginOut" class="userAction">
+		</action>
+		<action name="update" class="userAction">
+		</action>
+	</package>
+</struts>
+	
